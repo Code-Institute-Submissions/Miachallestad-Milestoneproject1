@@ -1,0 +1,28 @@
+header {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Navigation*/
+
+.navbar .navbar-toggler {
+   border: 0;
+}
+
+.dropdown-menu {
+    border: 0;
+}
+
+/*Callout*/
+
+.callout-container {
+    height: 66vh;
+    background: url("../images/hero_woman.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
