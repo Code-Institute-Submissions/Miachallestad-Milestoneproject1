@@ -1,0 +1,100 @@
+/*Colors*/
+
+.bg-color-name-title {
+     background-color: #003366; 
+}
+
+/*Headings*/
+
+header {
+    margin: 0;
+}
+
+heading {
+    margin:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Navigation*/
+
+.navbar .navbar-toggler {
+   border: 0;
+}
+
+.dropdown-menu {
+    border: 0;
+}
+
+/*Callout*/
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/herowoman.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     z-index: 3;
+}
+
+.callout-overlay {
+    opacity: 0.7;
+    z-index: 2;
+    color: white;
+    margin-right: 3%;
+}
+
+.name {
+    font-family: "Roboto", sans-serif;  
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+.first-name {
+    font-size: 70px;
+}
+
+.last-name {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-top: -3px;
+}
+
+.title {
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.contact-info {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-top: 10%
+}
+
+.heading-experience {
+    margin-top: 10%;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+.experience-titles {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.number-of-years {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -8%;
+    margin-bottom: 0;
+}
+
+.years {
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: -3%;
+}
