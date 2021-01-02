@@ -1,7 +1,11 @@
 /*Colors*/
 
-.bg-color-name-title {
-     background-color: #003366; 
+/*.bg-color-name-title {
+     background-color: #841B2D; 
+}*/
+
+.experience-background {
+    background-color: #008080;
 }
 
 /*Headings*/
@@ -14,6 +18,13 @@ heading {
     margin:0;
 }
 
+.section-heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: #93e1d8;
+    margin-top: 13%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -21,80 +32,122 @@ body {
 /*Navigation*/
 
 .navbar .navbar-toggler {
-   border: 0;
+    border: 0;
 }
 
 .dropdown-menu {
-    border: 0;
+    border: 0; 
+}
+
+.icon-color {
+    color: #008080;
 }
 
 /*Callout*/
 
 .callout-container {
-    height: 100vh;
-    background: url("../images/herowoman.jpg") no-repeat center center fixed; 
+    height: 75vh;
+    background: url("../images/banner.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
-     z-index: 3;
-}
+     position: relative;
+     margin-top: 0;
+ } 
 
-.callout-overlay {
-    opacity: 0.7;
-    z-index: 2;
-    color: white;
-    margin-right: 3%;
+.callout-text {
+    color: #008080;
 }
 
 .name {
     font-family: "Roboto", sans-serif;  
+    font-size: 35px;
     font-weight: 300;
     letter-spacing: 0.1em;
-}
-
-.first-name {
-    font-size: 70px;
-}
-
-.last-name {
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    margin-top: -3px;
+    margin-top: 25%;
 }
 
 .title {
-    font-size: 29px;
+    font-size: 22px;
     font-weight: 300;
+    letter-spacing: 0.1em;
 }
 
 .contact-info {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
-    margin-top: 10%
+    margin-top: 3%;
 }
 
-.heading-experience {
-    margin-top: 10%;
-    font-weight: 300;
-    letter-spacing: 0.1em;
+.experience-ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.experience-titles {
-    font-size: 10px;
-    font-weight: 300;
+.experience-title {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 1.5%;
+    text-align: center;
 }
 
 .number-of-years {
+    color: white;
     font-size: 45px;
     font-weight: bold;
-    margin-top: -8%;
+    margin-top: -10%;
     margin-bottom: 0;
 }
 
 .years {
-    font-size: 10px;
+    color:white;
+    font-size: 14px;
     font-weight: 300;
     margin-top: -3%;
 }
+
+/*About me*/
+.about-me-container {
+    background-color: white;
+    height: 100vh;
+}
+
+.about-me p {
+   font-weight: 300; 
+}
+
+#circle-container {
+    background-color: gray;
+    height: 200px;
+    width: 200px;
+}
+
+/*Portfolio*/
+
+/*Buttons*/
+
+.btn--cta {
+    background-color: #008080;
+    border: 0;
+    font-weight: 400;
+    margin-top: 1%;
+}
+
+.btn--teal{
+    color: white; 
+}
+
+.btn--teal:hover,
+.btn--teal:active,
+.btn--teal:focus,
+.btn--teal:active:focus {
+    background-color: gray;
+    border-color:gray;
+}
+
+
+
+
+

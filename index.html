@@ -11,73 +11,121 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     </head>
 <body>
-    <!-- Navigation--------------------------------------------------->
-  <nav class="navbar navbar-light bg-white navbar-expand-sm">
-         
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
-         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
+ <!-- Navigation--------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-           <ul class="navbar-nav mx-auto">
-              <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Digital learning</a>
-              <a class="dropdown-item" href="#">Concept development</a>
-              <a class="dropdown-item" href="#">Video</a>
-              </div>
-              </li>
-              <li class="nav-item mr-2"><a class="nav-link" href="/about">About me</a></li>
-             <li class="nav-item mr-2"><a class="nav-link" href="/about">Contact</a></li>
-           </ul>
-    </div>
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active px-2">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown px-2">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Digital learning</a>
+          <a class="dropdown-item" href="#">Video</a>
+          <a class="dropdown-item" href="#">Koncept development</a>
+          <li class="nav-item px-2">
+        <a class="nav-link" href="#">About</a>
+        </li>
+          <li class="nav-item px-2">
+          <a class="nav-link" href="#">Contact</a>
+          </li>
+        </div>
+        </li>
+    </ul>
+  </div>
+  <div class="pr-3">
+          <a class="px-1" href="#"><i class="fab fa-linkedin-in icon-color"></i></a>
+          <a class="px-1" href="#"><i class="fab fa-github icon-color"></i></a>
+  </div>
+
+</nav>
+<body>
 <!-- Callout--------------------------------------------------->
-<div class="container-fluid text-center callout-container">
-        <div class="row">
-            <div class="col-md-3 ml-auto bg-color-name-title callout-overlay">
-            <h1 class="text-uppercase name"><span class="first-name">Maria</span><br><span class="last-name">Karlsson</span></h1>
-            <h2 class="title">Learning designer</h2>
-            <p class="contact-info">+46 (0)705 804 566<br>miachallestad@gmail.com</p>
-            <a class="btn btn-light btn-sm" href="#" role="button">Download CV</a>
-            <p class="heading-experience text-uppercase">Experience</p>
-            <div class="row">
-                <div class="col">
-                    <ul class="list-unstyled text-uppercase experience-titles">
-                        
-                        <li><p>Competence<br>development</p>
-                        <p class="number-of-years">10</p>
-                        <p class="years">Years</p></li>
-                        
-                        <li><p>Digital<br>learning</p>
-                        <p class="number-of-years">5</p>
-                        <p class="years">Years</p></li>
-
-                        <li><p>Trainings<br>& Events</p>
-                        <p class="number-of-years">10</p>
-                        <p class="years">Years</p></li>
-                                
-                        <li><p>Concept<br>development</p>
-                        <p class="number-of-years">3</p>
-                        <p class="years">Years</p></li>
-                        
-                    </ul>
-                </div>
+   <div class="container-fluid callout-container">
+      <div class="row">
+            <div class="col-sm-6 ml-auto text-center bg-color-name-title callout-text">
+               <h1 class="text-uppercase name">Maria Karlsson</h1>
+               <h2 class="text-uppercase title">Learning designer</h2>
+               <p class="contact-info">+46(0)705 80466<br>miachallestad@gmail.com</p>
+               <a class="btn btn-dark btn--cta btn--teal btn-lg rounded-pill shadow-sm" href="#" role="button">Download CV</a>
             </div>
+      </div> 
+   </div> 
+<!-- Experience--------------------------------------------------->
+   <div class="container-fluid">
+       <div class="row"> 
+           <div class="col experience-background text-center">
+                    <ul class="list-inline list-unstyled text-uppercase experience-ul">
+                        
+                        <li class="list-inline-item px-5 mx-5 experience-title">Competence<br>development<br>
+                        <span class="number-of-years">10<span class="text-lowercase years"> years</span></span>
+                        </li>
+            
+                        <li class="list-inline-item px-5 mx-5 experience-title">Digital<br>learning<br>
+                        <span class="number-of-years">5<span class="text-lowercase years"> years</span></span>
+                        </li>
+
+                        <li class="list-inline-item px-5 mx-5 experience-title">Trainings<br>& Events<br>
+                        <span class="number-of-years">10<span class="text-lowercase years"> years</span></span>
+                        </li>
+                                
+                        <li class="list-inline-item px-5 mx-5 experience-title">Concept<br>development<br>
+                        <span class="number-of-years">3<span class="text-lowercase years"> years</span></span>
+                        </li>
+                    </ul>
+              </div>
+           </div>
+       </div>
+
+<!-- About me--------------------------------------------------->
+<div class="container-fluid about-me-container">
+    <div class="row">
+        <div class="col">
+            <h1 class="section-heading pl-5">about me</h1> 
         </div>
     </div>
-</div>
-<div>
-    <h3>Simplify learning for better performance in worklife</h3>
-</div>
+       <div class="row"> 
+           <div class="col-md-6 about-me pl-5 ml-5">
+              <p>I'm passionate about changing, improving and developing. To find new solutions and to create 
+                 good conditions to learn and grow. New ways of working require new ways of learning. 
+                 Rapid adaptability, employer branding, collaboration and sustainable solutions are and will be
+                 key factors. The ability to adapt to new conditions, changed gameplan and new roles will be 
+                 crucial. Both for companies, organisations and employees. I want to contribute to the development 
+                 of today's and tomorrow's ways of learning and transfer information. To meet the new demands, 
+                 skill, reskill and upskill and to motivate, inspire and engage. For great performance in worklife. 
+               </p>
+               <div class="row">
+                  <div class="col pt-2">
+                      <a class="btn btn-dark btn--cta btn--teal btn-sm rounded-pill shadow-sm" href="#" role="button">Read more</a>
+                  </div>
+                </div>
+           </div>
+           <div class="col-md-4 about-me">
+               <div id="circle-container">
+                   <div id="circle-cover-bg">
+             <ul class="list-unstyled text-uppercase">
+                <li>Analytical</li>
+                <li>Strategic</li>
+                <li>Doer</li>
+                <li>Creative</li>
+                <li>Service minded</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+       </div>
+   </div>          
+
+</body>
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
