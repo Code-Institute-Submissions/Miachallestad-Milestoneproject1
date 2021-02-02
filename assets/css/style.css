@@ -6,6 +6,17 @@
 
 .experience-background {
     background-color: #008080;
+    height: 15vh;
+}
+
+.full-page-bg-off-white {
+    background-color: white;
+    height: 100vh;
+}
+
+.full-page-bg-light-grey {
+    background-color: #f2f2f2;
+    height: 100vh;
 }
 
 /*Headings*/
@@ -21,8 +32,7 @@ heading {
 .section-heading {
     font-size: 60px;
     font-weight: bold;
-    color: #93e1d8;
-    margin-top: 13%;
+    color: lightgray;
 }
 
 body {
@@ -45,8 +55,8 @@ body {
 
 /*Callout*/
 
-.callout-container {
-    height: 75vh;
+.bg-img {
+    height: 85vh;
     background: url("../images/banner.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -89,7 +99,7 @@ body {
     color: white;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 1.5%;
+    margin-top: 0.6%;
     text-align: center;
 }
 
@@ -110,18 +120,79 @@ body {
 
 /*About me*/
 .about-me-container {
-    background-color: white;
     height: 100vh;
+}
+
+.about-me-heading {
+    margin-top: 70%;
 }
 
 .about-me p {
    font-weight: 300; 
+   width: 75%;
 }
 
 #circle-container {
-    background-color: gray;
-    height: 200px;
-    width: 200px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-top: 34%;
+}
+
+#circle-cover-bg {
+    background: url("../images/me.jpg") no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.about-me-quote-container {
+    background-color:#F5F2D0;
+    height: 20vh;
+}
+
+.about-me-quote {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/*Skills and experience*/
+
+.skills-experience-container {
+    height: 100vh;
+}
+
+.skills-experience-heading {
+    margin-top: 15%;
+    margin-bottom: 15%
+}
+
+.digital-learning {
+    background-color: beige;
+}
+
+.icon-size {
+    font-size: 40px;
+}
+
+.digital-learning-heading {
+    margin-bottom: -10%;
+}
+
+.video {
+    background-color: bisque;
+}
+
+.training-events {
+    background-color: burlywood;
+}
+
+.concept-dev {
+    background-color: cadetblue;
 }
 
 /*Portfolio*/
