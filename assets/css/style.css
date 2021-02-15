@@ -5,8 +5,8 @@
 }*/
 
 .experience-background {
-    background-color: #008080;
-    height: 15vh;
+    background-color: #00262B;
+    height:15vh
 }
 
 .full-page-bg-off-white {
@@ -29,10 +29,27 @@ heading {
     margin:0;
 }
 
+h5 {
+    font-size: 17px;
+}
+
 .section-heading {
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
     color: lightgray;
+}
+
+.subsection-heading {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: lightgray;
+}
+
+.projects-heading {
+   font-size: 26px;
+   font-weight: 300; 
 }
 
 body {
@@ -67,19 +84,28 @@ body {
  } 
 
 .callout-text {
-    color: #008080;
+    color: #00262B;
+}
+
+.callout-container {
+    margin-top: 7%;
+}
+
+.btn-sm-custom {
+    width: 125px;
+    height: 37px;
 }
 
 .name {
     font-family: "Roboto", sans-serif;  
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 300;
     letter-spacing: 0.1em;
-    margin-top: 25%;
+    margin-bottom: 1%;
 }
 
 .title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: 0.1em;
 }
@@ -90,24 +116,35 @@ body {
     margin-top: 3%;
 }
 
-.experience-ul {
-    margin-top: 0;
-    margin-bottom: 0;
+.competence {
+    width: 18%;
 }
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+ .experience-container {
+     font-size: 0;
+ }
+
+ #experience li {
+     font-size: 16px;
+     padding: 0;
+ }
 
 .experience-title {
     color: white;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 0.6%;
     text-align: center;
 }
 
 .number-of-years {
-    color: white;
+    color: #CEA36B;
     font-size: 45px;
     font-weight: bold;
-    margin-top: -10%;
+    margin-top: -5%;
     margin-bottom: 0;
 }
 
@@ -118,13 +155,32 @@ body {
     margin-top: -3%;
 }
 
+/*Portfolio*/
+
+.container-wrapper {}
+
+.container-wrapper--light-grey {
+    background-color: #F5F2D0;
+}
+
+.blockquote {
+    font-size: 16px;
+}
+
 /*About me*/
 .about-me-container {
+    background-color: white;
     height: 100vh;
 }
 
-.about-me-heading {
-    margin-top: 70%;
+#hand-written {
+    font-family: "Cookie", cursive;
+    font-size: 24px;
+    margin-top: -0.5%;
+}
+
+.about-me-text {
+    margin-top: -1%;
 }
 
 .about-me p {
@@ -133,50 +189,54 @@ body {
 }
 
 #circle-container {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     padding: 10px;
-    border-style: solid;
-    border-color: grey;
-    border-width: 1px;
     border-radius: 50%;
-    margin-top: 34%;
+    margin-top: -5%;
+    margin-bottom: 10%;
 }
 
 #circle-cover-bg {
-    background: url("../images/me.jpg") no-repeat center;
+    background: url("../images/me2.jpg") no-repeat center;
     height: 100%;
     border-radius: 50%;
 }
 
-
 .about-me-quote-container {
-    background-color:#F5F2D0;
-    height: 20vh;
+    background-color: #F5F2D0;
 }
 
 .about-me-quote {
-    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
     font-weight: 300;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 /*Skills and experience*/
 
 .skills-experience-container {
-    height: 100vh;
+    background-color: white;
 }
 
-.skills-experience-heading {
-    margin-top: 15%;
-    margin-bottom: 15%
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.experience-overview {
+    margin-top: 5%;
 }
 
 .digital-learning {
-    background-color: beige;
+    background-color: #C9ECCB;
 }
 
 .icon-size {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .digital-learning-heading {
@@ -184,23 +244,25 @@ body {
 }
 
 .video {
-    background-color: bisque;
+    background-color: #E7F6C7;
 }
 
 .training-events {
-    background-color: burlywood;
+    background-color: #52BF90;
 }
 
 .concept-dev {
-    background-color: cadetblue;
+    background-color:#93E1D8;
 }
 
-/*Portfolio*/
+.upp-skilling-container {
+    background-color: #339899;
+}
 
 /*Buttons*/
 
 .btn--cta {
-    background-color: #008080;
+    background-color: #CEA36B;
     border: 0;
     font-weight: 400;
     margin-top: 1%;
@@ -219,6 +281,8 @@ body {
 }
 
 
+@media screen and(max-width:1396px) {
 
+}
 
 
