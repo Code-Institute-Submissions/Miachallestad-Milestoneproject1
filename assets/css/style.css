@@ -159,12 +159,21 @@ body {
 
 .container-wrapper {}
 
-.container-wrapper--light-grey {
+.container-wrapper--light-beige {
     background-color: #F5F2D0;
+}
+
+.container-wrapper--light-grey {
+    background-color: #EFECEA;
 }
 
 .blockquote {
     font-size: 16px;
+}
+
+.quote-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 /*About me*/
