@@ -5,16 +5,30 @@
 }*/
 
 .experience-background {
-    background-color: #00262B;
+    background-color: #013040;
     height:15vh
 }
+
+#002A38 #002A38 #013040
 
 .sales-concept-background {
     background-color: #C9ECCB;
 }
 
+.description-background {
+    background-color: #CEA36B;
+}
+
 .product-news-background {
     background-color: black;
+}
+
+.portfolio-container-fluid-background {
+    background-color: #002A38;
+}
+
+.portfolio-items-background {
+    background-color: white;
 }
 
 .full-page-bg-off-white {
@@ -42,17 +56,16 @@ h5 {
 }
 
 .section-heading {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    color: lightgray;
+    color: white;
 }
 
 .subsection-heading {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 400;
     letter-spacing: 0.1rem;
-    color: lightgray;
 }
 
 .projects-heading {
@@ -62,6 +75,10 @@ h5 {
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.white-text {
+    color: white;
 }
 
 /*Navigation*/
@@ -163,42 +180,16 @@ body {
     margin-top: -3%;
 }
 
-/*Portfolio*/
-
-.blockquote {
-    font-size: 16px;
-}
-
-.quote-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-}
-
-iframe {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-.video-background {
-    background-color: black;
-}
-
-
 /*About me*/
 .about-me-container {
-    background-color: white;
+    background-color: #002A38;
     height: 100vh;
 }
 
 #hand-written {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto Condensed";
     font-size: 24px;
-    margin-top: -0.5%;
-}
-
-.about-me-text {
-    margin-top: -1%;
+    color:#CEA36B;
 }
 
 .about-me p {
@@ -221,9 +212,6 @@ iframe {
     border-radius: 50%;
 }
 
-.about-me-quote-container {
-    background-color: #F5F2D0;
-}
 
 .about-me-quote {
     font-family: "Roboto Condensed", sans-serif;
@@ -233,10 +221,65 @@ iframe {
     margin-bottom: 1%;
 }
 
+
+/*Portfolio*/
+
+.e-learning-image {
+    background: url("../images/computer_2.jpg") no-repeat center;
+    height: 337px;
+    width: 443px;
+}
+
+.blockquote {
+    font-size: 16px;
+}
+
+.quote-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.quote-hr {
+    border-color:white;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.video-background {
+    background-color: black;
+}
+
+.training-events-image {
+    background: url("../images/training_events_2.jpg") no-repeat top left;
+    height: 366px;
+    width: 1063px; 
+}
+
+.training-info {
+    background-color: #93E1D8;
+}
+
+.list-of-trainings {
+    background-color: #C9ECCB;
+}
+
+
 /*Skills and experience*/
 
 .skills-experience-container {
-    background-color: white;
+    height: 100vh;
+    background: url("../images/background_skills.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     position: relative;
+     margin-top: 0;
+ } 
 }
 
 .block-divider {
@@ -271,6 +314,22 @@ iframe {
 
 .concept-dev {
     background-color:#93E1D8;
+}
+
+.user-centric {
+    background-color: #D3F3F7;
+}
+
+.interactiv-front-end {
+    background-color: #A4ECD7;
+}
+
+.data-centric {
+    background-color: #76D8AF;
+}
+
+.fullstack {
+    background-color: #E0E9C6;
 }
 
 .upp-skilling-container {
