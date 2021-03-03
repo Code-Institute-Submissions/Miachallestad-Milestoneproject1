@@ -10,276 +10,237 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     </head>
+
 <body>
-    <div class="container-fluid bg-img">
-      <!-- Navigation--------------------------------------------------->
-      <nav class="navbar navbar-expand-lg navbar-light">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
+    <div id="home" class="container-fluid bg-img">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light navbar-dark-md">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active px-3">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown px-3">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Portfolio </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Digital learning</a>
-                        <a class="dropdown-item" href="#">Video</a>
-                        <a class="dropdown-item" href="#">Koncept development</a>
-                      </div>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active px-3">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-3">
+                    <a class="nav-link" href="#about-me">About</a>
+                    </li>
+                    <li class="nav-item px-3">
+                    <a class="nav-link" href="#skills-and-experience-container">Skills & experience</a>
+                    </li>
+                    <li class="nav-item dropdown px-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Portfolio </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#concept-development">Concept development</a>
+                        <a class="dropdown-item" href="#e-learning">E-learning</a>
+                        <a class="dropdown-item" href="#video">Video</a>
+                        <a class="dropdown-item" href="#trainings-events">Trainings & events</a>
+                    </div>
                    </li>
-                   <li class="nav-item px-3">
-                   <a class="nav-link" href="#">About</a>
-                   </li>
-
                    <li class="nav-item px-3 mr-4">
-                     <a class="nav-link" href="#">Contact</a>
+                     <a class="nav-link" href="#contact">Contact</a>
                    </li>
 
                    <li class="nav-item px-2 mt-2">
-                     <a class="px-1" href="#"><i class="fab fa-linkedin-in icon-color"></i></a>
+                        <a class="px-1" href="#"><i class="fab fa-linkedin-in icon-color"></i></a>
                    </li>
 
                    <li class="nav-item px-2 mt-2">
-                    <a class="px-1" href="#"><i class="fab fa-github icon-color"></i></a>
+                       <a class="px-1" href="#"><i class="fab fa-github icon-color"></i></a>
                    </li>
                 </ul>
            </div>
       </nav>
-      <!-- Callout--------------------------------------------------->
-      
+      <!-- Callout--> 
+      <div class="row d-lg-none">
+          <div class="col d-flex justify-content-center">
+            <img src="assets/images/me.jpg" class="rounded-circle" height="100" width="100">   
+          </div>
+      </div>
       <div class="callout-container">
          <div class="row d-flex justify-content-center">
-                <div class="col-md-4 bg-color-name-title callout-text ml-auto mr-5 pt-4 pb-4">
-                   <h1 id="name" class="text-uppercase ml-3 mb-0">Maria Karlsson</h1>
-                   <h2 class="text-uppercase title ml-3">Learning designer</h2>
-                   <p class="contact-info mt-3 mb-0 ml-3">Falköping - Sweden<br>+46(0)705 80466<br>miachallestad@gmail.com</p>
-                   <a class="btn btn-dark btn--cta btn--teal btn-sm btn-sm-custom rounded-pill shadow-sm mt-4 mb-2 ml-3 pt-2 
-                   pb-3" href="#" role="button">DOWNLOAD CV</a>
-              </div> 
+                <div class="col-md-10 col-lg-8 callout-text pt-md-4 pb-4 d-flex justify-content-center d-flex justify-content-lg-end">
+                   <div class="">
+                   <h1 id="name" class="text-uppercase mb-0">Maria Karlsson</h1>
+                   <h2 class="text-uppercase title">Learning designer</h2>
+                   <p class="contact-info mt-3 mt-md-4 pt-md-1 mb-0">Falköping - Sweden<br>+46(0)705 80466<br>miachallestad@gmail.com</p>
+                   <a class="btn btn-dark btn--cta btn--teal btn-sm btn-sm-custom rounded-pill shadow-sm mt-5 mb-2 pt-2 mb-md-1
+                   pb-3" href="assets/cv/cv_maria_karlsson_eng.pdf" target="_blank" role="button">DOWNLOAD CV</a>
+                   </div>
+                </div> 
          </div> 
-       </div> 
+      </div> 
     </div>
 
-   <!-- Experience--------------------------------------------------->
+   <!-- Experience-->
    <div class="container-fluid pl-0 pr-0 pb-0 mb-0">
        <div class="row no-gutters">
            <div class="col">
-               <ul id="experience" class="list-inline experience-container mb-0 pb-0">
-                   <li class="col-6 col-sm-3 experience-background list-inline-item">
+               <ul id="experience" class="list-inline experience-ul mb-0 pb-0">
+                   <li class="col-6 col-sm-3 blue-background list-inline-item">
                    <h5 class="experience-title text-uppercase mt-2">Competence<br>development</h5>
                    <h6 class="number-of-years text-center">10<span class="text-lowercase years"> years</span></h6>
                    </li>
-                   <li class="col-6 col-sm-3 experience-background list-inline-item">
+                   <li class="col-6 col-sm-3 blue-background list-inline-item">
                    <h5 class="experience-title text-uppercase mt-2">Digital<br>learning</h5>
                    <h6 class="number-of-years text-center">5<span class="text-lowercase years"> years</span></h6>
                    </li>
-                   <li class="col-6 col-sm-3 experience-background list-inline-item">
+                   <li class="col-6 col-sm-3 blue-background list-inline-item">
                    <h5 class="experience-title text-uppercase mt-2">Trainings<br>& events</h5>
                    <h6 class="number-of-years text-center">10<span class="text-lowercase years"> years</span></h6>
                    </li>
-                   <li class="col-6 col-sm-3 experience-background list-inline-item">
+                   <li class="col-6 col-sm-3 blue-background list-inline-item">
                    <h5 class="experience-title text-uppercase mt-2">Concept<br>development</h5>
                    <h6 class="number-of-years text-center">3<span class="text-lowercase years"> years</span></h6>
                    </li>
 
                </ul>
-               
            </div>
        </div>
    </div>
 
-   <!-- About me--------------------------------------------------->
-   <div class="container-fluid about-me-container">          
-    <div class="row">
+   <!-- About me-->
+   <div id="about-me" class="container-fluid about-me-container deep-blue-background ">          
+       <div class="row">
            <div class="col-md-2 mx-auto mt-5 pt-5 d-none d-lg-block">
-              <div id="circle-container">
-                  <div id="circle-cover-bg">    
+              <div class="circle-container">
+                  <div class="circle-cover-bg">    
                   </div>
                </div>  
            </div>
        </div>
        <div class="row">
             <div class="col d-flex justify-content-center">
-                <h1 class="section-heading text-uppercase mt-5 mt-1-lg">About me</h1> 
+                <h1 class="section-heading text-uppercase mt-5 mt-md-5 pt-md-5 mt-lg-1">About me</h1> 
             </div>
-        </div>
+       </div>
        <div class="row justify-content-center">
-            <div class="col-md-10 d-flex justify-content-center white-text">
-                <p class="text-center mb-5 pb-5">I'm passionate about changing, improving and developing. To find new solutions and to create 
-                good conditions to learn and grow. New ways of working require new ways of learning. 
-                Rapid adaptability, employer branding, collaboration and sustainable solutions are and will be
-                key factors. The ability to adapt to new conditions, changed gameplan and new roles will be 
-                crucial. Both for companies, organisations and employees. I want to contribute to the development 
-                of today's and tomorrow's ways of learning and transfer information. To meet the new demands, 
-                to skill, reskill and upskill and to motivate, inspire and engage. For great performance in worklife. 
+            <div class="col-md-10 d-flex justify-content-center white-text mb-md-5 pb-md-5">
+                <p class="text-center pb-5 mb-md-5 pb-md-5">I'm passionate about changing, improving, 
+                   and developing. To find new solutions and to create good conditions to learn and grow. 
+                   I believe that the new ways of working today require new ways of learning. Our ability 
+                   to level up, adapt to new conditions, changed gameplans and new roles is and will be 
+                   even more crucial. For companies, organizations and employees. I want to contribute to 
+                   the development of today's and tomorrow's ways of learning and transfer information. 
+                   To meet the new demands and create sustainable learning solutions, to skill, reskill 
+                   and upskill and to motivate, inspire and engage. For successful performance in work life. 
                 </p>
             </div>
        </div>
    </div>
      
 
-    <!-- Skills--------------------------------------------------->
+    <!--Skills & experience-->
 
-    <div class="container-fluid skills-experience-container">
+    <div id="skills-and-experience-container" class="container-fluid">
         
         <div class="row mx-5">
             <div class="col d-flex justify-content-center">
-               <h1 class="section-heading skills-experience-heading text-uppercase mt-5 pt-5">Skills & experience</h1> 
+               <h1 class="section-heading skills-experience-section-heading text-uppercase mt-5 pt-md-5">Skills & experience</h1> 
             </div>
         </div>
-         <div class="row">
-        <div class="col d-flex justify-content-center ml-0 white-text">
-            <ul class="list-unstyled text-center">
+        <div class="row d-flex justify-content-center">
+            <div class="col-8 d-flex justify-content-center ml-0">
+                <ul class="list-unstyled text-center">
                <li>17 years of work in a global organisation with own production and sales in 40 countries.</li>
                <li>Industry: Office, school and care furniture.</li>
-            </ul>   
-        </div>
-       </div> 
+                </ul>   
+            </div>
+        </div> 
         
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-10 mb-5 pb-5">
                     <div class="row mt-2">
-                        <div class="col-md-3 digital-learning text-center mt-2">
-                  <div class="row">
-                      <div class="col mt-4 pr-2">
-                           <i class="fas fa-desktop icon-size"></i>
+                        <div class="col-md-6 col-lg-3 digital-learning text-center mt-2">
+                            <div class="row">
+                                <div class="col mt-4 pr-2">
+                           <i class="fas fa-desktop icon-size" aria-hidden="true"></i>
                            <h5 class="text-uppercase mt-2 mb-0 pb-0">Digital learning</h5>
-                           <h6 class="mt-0 mb-0">e-learning, guides, webinar</h6>
-                      </div>
-                    </div>
-                    <hr class="mb-1"> 
-                    <div class="row">
-                        <div class="col mt-0">
+                           <h6 class="mt-0 mb-0">E-learning, guides, webinar.</h6>
+                                </div>
+                            </div>
+                            <hr class="block-divider mb-1"> 
+                            <div class="row">
+                                <div class="col mt-0">
                             <ul class="list-unstyled mt-2">
-                            <li>
-                             Project management
-                            </li>
-                            <li>
-                             Interviews SME:s   
-                            </li>
-                            <li>
-                             Curriculum   
-                            </li>
-                            <li>
-                             Storyboard   
-                            </li>
-                            <li>
-                             Design   
-                            </li>
-                            <li>
-                             Moderator  
-                            </li>
+                                <li>Project management</li>
+                                <li>Interviews SME:s</li>
+                                <li>Curriculum</li>
+                                <li>Storyboard</li>
+                                <li>Design</li>
+                                <li>Moderator</li>
                             </ul>
+                                </div>
+                            </div> 
                         </div>
-                    </div> 
+                        <div class="col-md-6 col-lg-3 video text-center mt-2">
+                            <div class="row">
+                                <div class="col mt-4">
+                                    <i class="fas fa-photo-video icon-size" aria-hidden="true"></i>
+                                    <h5 class="text-uppercase mt-2 mb-0 pb-0">Video</h5>
+                                    <h6 class="mt-0 mb-0">Live action, animation.</h6>
+                                </div>
+                            </div>
+                            <hr class="block-divider mb-1">  
+                            <div class="row">
+                                <div class="col mt-0">
+                                    <ul class="list-unstyled mt-2">
+                                        <li>Project management</li>
+                                        <li>Interviews SME:s</li>
+                                        <li>Curriculum</li>
+                                        <li>Storyboard</li>
+                                        <li>Transcription</li>
+                                    </ul>
+                                </div>
+                            </div> 
                         </div>
-                        <div class="col-md-3 video text-center mt-2">
-                    <div class="row">
-                        <div class="col mt-4 pr-2">
-                          <i class="fas fa-photo-video icon-size"></i>
-                          <h5 class="text-uppercase mt-2 mb-0 pb-0">Video</h5>
-                          <h6 class="mt-0 mb-0">live action, animation</h6>
+                        <div class="col-md-6 col-lg-3 training-events text-center mt-2 mt-md-0 mt-lg-2">
+                            <div class="row">
+                                <div class="col mt-4 pr-2">
+                                    <i class="fas fa-users icon-size" aria-hidden="true"></i>
+                                    <h5 class="text-uppercase mt-2 mb-0 pb-0">Training & events</h5>
+                                    <h6 class="mt-0 mb-0">Broad spectra.</h6>
+                                </div>
+                            </div>
+                            <hr class="block-divider mb-1">  
+                            <div class="row">
+                                <div class="col mt-0">
+                                    <ul class="list-unstyled mt-2">
+                                        <li>Needs analysis</li>
+                                        <li>Development</li>
+                                        <li>Project management</li>
+                                        <li>Administration</li>
+                                        <li>Facilitation</li>
+                                        <li>Trainer</li>
+                                    </ul>
+                                </div>
+                            </div> 
                         </div>
-                   </div>
-                   <hr class="mb-1">  
-                   <div class="row">
-                       <div class="col mt-0">
-                            <ul class="list-unstyled mt-2">
-                            <li>
-                             Project management
-                            </li>
-                            <li>
-                             Interviews SME:s   
-                            </li>
-                            <li>
-                             Curriculum   
-                            </li>
-                            <li>
-                             Storyboard   
-                            </li>
-                            <li>
-                             Production (no filming/cutting)  
-                            </li>
-                            <li>
-                             Transcription 
-                            </li>
-                            </ul>
-                       </div>
-                   </div> 
-                        </div>
-                        <div class="col-md-3 training-events text-center mt-2">
-                   <div class="row">
-                        <div class="col mt-4 pr-2">
-                            <i class="fas fa-users icon-size"></i>
-                            <h5 class="text-uppercase mt-2 mb-0 pb-0">Training & events</h5>
-                            <h6 class="mt-0 mb-0">broad spectra</h6>
-                        </div>
-                    </div>
-                    <hr class="mb-1">  
-                    <div class="row">
-                        <div class="col mt-0">
-                            <ul class="list-unstyled mt-2">
-                                <li>
-                                  Needs analysis
-                                </li>
-                                <li>
-                                Development  
-                                </li>
-                                <li>
-                                Project management   
-                                </li>
-                                <li>
-                                Administration  
-                                </li>
-                                <li>
-                                 Facilitation   
-                                </li>
-                                <li>
-                                Trainer 
-                                </li>
-                            </ul>
-                        </div>
-                    </div> 
-                        </div>
-                        <div class="col-md-3 concept-dev text-center mt-2">
-                    <div class="row">
-                        <div class="col mt-4 pr-2">
-                            <i class="far fa-lightbulb icon-size"></i>
-                            <h5 class="text-uppercase mt-2 mb-0 pb-0">Concept development</h5>
-                            <h6 class="mt-0 mb-0">sales concept</h6>
-                        </div>
-                    </div>
-                    <hr class="mb-1">  
-                    <div class="row">
-                        <div class="col mt-0">
-                            <ul class="list-unstyled mt-2">
-                               <li>
-                               Coordination
-                               </li>
-                               <li>
-                               Documentation  
-                               </li>
-                               <li>
-                               Packaging  
-                               </li>
-                               <li>
-                               Training material   
-                               </li>
-                               <li>
-                               Moderator   
-                               </li>
-                               <li>
-                               Doer  
-                               </li>
-                            </ul>
-                        </div>
-                    </div> 
+                        <div class="col-md-6 col-lg-3 concept-dev text-center mt-2 mt-md-0 mt-lg-2">
+                            <div class="row">
+                                <div class="col mt-4 pr-2">
+                                    <i class="far fa-lightbulb icon-size"  aria-hidden="true"></i>
+                                    <h5 class="text-uppercase mt-2 mb-0 pb-0">Concept development</h5>
+                                    <h6 class="mt-0 mb-0">Sales concept.</h6>
+                                </div>
+                            </div>
+                            <hr class="block-divider mb-1">  
+                            <div class="row">
+                                <div class="col mt-0">
+                                <ul class="list-unstyled mt-2">
+                               <li>Coordination</li>
+                               <li>Documentation</li>
+                               <li>Packaging</li>
+                               <li>Training material</li>
+                               <li>Moderator</li>
+                               <li>Doer</li>
+                                </ul>
+                                </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -287,45 +248,43 @@
         </div>
     </div>
 
-<!-- Portfolio--------------------------------------------------->
-    <div class="container-fluid portfolio-container-fluid-background">
+    <!-- Portfolio-->
+    <div id="portfolio" class="container-fluid deep-blue-background">
        <div class="row">
             <div class="col d-flex justify-content-center">
                 <h1 class="section-heading text-uppercase mt-5 pt-5 mb-5 pb-5">Portfolio</h1>
             </div>
         </div>
-        <!-- Concept development--------------------------------------------------->
     
-    </div>
-    <div class="container-fluid portfolio-items-background">
-         <div class="row mt-4">
-                <div class="col d-flex justify-content-center mt-3">
-                   <h2 class="text-uppercase subsection-heading">Concept development</h2>
-                </div>
-        </div>
-        <div class="row d-flex">
-            <div class="col d-flex justify-content-center mr-0">
+        <!-- Concept development-->
+       <div id="concept-development" class="container">
+           <div class="row d-flex justify-content-center">
+               <div class="col-10 portfolio-items-background">
+           <div class="row mt-4">
+               <div class="col d-flex justify-content-center text-center mt-3 mt-md-5">
+                  <h2 class="text-uppercase subsection-heading mb-4">Concept development</h2>
+               </div>
+           </div>
+           <div class="row d-flex">
+            <div class="col d-flex justify-content-center mt-md-2 mr-0">
                 <h3>Next Office</h3>
             </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-8 text-center ml-0">
-                    <p>A concept for how to create innovative and efficient office solutions 
-                       including people, technology and the physical environment. Based on 
-                       research and analysis. To create sustainable office solutions, increase 
-                       creativity, strengthen the brand and for better health.
-                    </p>
-                </div>
+           </div>
+           <div class="row d-flex justify-content-center">
+            <div class="col-lg-8 text-center ml-0">
+                <p>A concept for how to create innovative and efficient office solutions 
+                    including people, technology and the physical environment. Based on 
+                    research and analysis. To create sustainable office solutions, increase 
+                    creativity, strengthen the brand and for better health.
+                </p>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 mt-4 mb-4 concept-image-background">
+           </div>
+           <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 mt-md-4 mb-4 concept-image-background">
             </div>
-        
-            <div class="col-md-6 mt-4 mb-4">
-               <h5 class="text-uppercase mt-4 pt-3">Background</h5>
-                <p class="mr-5 pr-4">Studies showed that the occupancy rate at the personal workstations was rarely more than 50%.  
+            <div class="col-lg-6 mt-md-4 mb-4">
+               <h5 class="text-uppercase mt-md-4 pt-md-3">Background</h5>
+                <p class="mr-md-5 pr-md-4">Studies showed that the occupancy rate at the personal workstations was rarely more than 50%.  
                 Half  (often more) of the workstations were always empty. The working life was undergoing a number of big changes. 
                 The most important driving forces behind the changes were new technology, new values and globalisation. The traditional 
                 workplace didn’t support all the activities that occur in the office. Often environments for different type of meetings, 
@@ -333,320 +292,340 @@
                 individual needs and driving forces of the employees. It was natural to look for new solutions that made more effective 
                 use of the workplace. </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-              <h5 class="text-uppercase ml-5 mt-4 pl-4 pt-3">Scope</h5> 
-              <p class="ml-5 pl-4">It started as external monitoring and ended up as a big project including a new sales process, showroom, new technology 
+           </div>
+           <div class="row">
+            <div class="col-lg-6">
+              <h5 class="text-uppercase ml-md-5 mt-md-4 pl-md-4 pt-md-3">Scope</h5> 
+              <p class="ml-md-5 pl-md-4">It started as external monitoring and ended up as a big project including a new sales process, showroom, new technology 
                  and change management. We went from being a company selling products to also offer services. It was a great challenge for 
-                 the salesforce who became consultants in areas they haven’t worked with before. But it was very welcomed due to the fact 
+                 the salesforce who became consultants in areas they were not familiar with. But it was very welcomed due to the fact 
                  that it opened up for a whole new way of selling furniture.
               </p> 
             </div>
-            <div class="col-md-6 mt-4 mb-4 concept-image-scope">
+            <div class="col-lg-6 mt-md-4 mb-md-4 concept-image-scope">
             </div>
-        </div>
-        <div class="row">
-           <div class="col-md-6 mt-4 mb-4 concept-image-analysis">
+           </div>
+           <div class="row">
+           <div class="col-lg-6 mt-md-4 mb-md-4 concept-image-analysis">
             </div>
-        
-        <div class="col-md-6">
-              <h5 class="text-uppercase mt-4 pt-3">The future workplace</h5> 
-              <p class="mr-5 pr-4">Everything indicates that the workplace of the future is flexible, location-independent 
+            <div class="col-lg-6">
+              <h5 class="text-uppercase mt-4 pt-md-3">The future workplace</h5> 
+              <p class="mr-md-5 pr-md-4">Everything indicates that the workplace of the future is flexible, location-independent 
               and more activity-based. The workplace is configured in line with the actual workforce, it’s characterised by 
               diversity and has more varied types of flexible, multi-functional and stimulating environments to better meet 
               the needs of the employees. The choice of environment is based on task, personality, age, physical needs, culture, 
-              mood, colleagues, design etc. The personal desk is less important.
+              mood, colleagues, design etc. The personal desk is less important. One size doesn't fit all. An in depth workplace 
+              analysis lay the foundation of a fully customized workplace.
               </p> 
             </div>
+           </div>
+
+           <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-3">
+                <p class="mt-5 ml-3 mr-5 pb-1 pl-2 pr-1 pt-1 description-background"><strong>MY ROLE:</strong> I took part
+                    in the development of the first version of the concept. My role wasn't clearly defined and changed during
+                    the process. Among others I worked with coordination, documentation, argumentation, packaging and training 
+                    material.
+                </p>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <a class="btn btn-dark btn--cta btn--teal btn-sm btn-sm-custom rounded-pill shadow-sm mt-4 mb-2 ml-3 pt-2 
-                   pb-3" href="#" role="button">The concept today</a>
-                </div>
+           </div>
+            
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+                <a class="btn btn-dark btn--cta btn--teal btn-sm btn-sm-custom btn-sm-custom-concept-link rounded-pill shadow-sm mt-4 mb-2 ml-3 pt-2 
+                pb-3" href="https://www.kinnarps.com/office/kinnarps-next-office/" target="_blank" role="button"> MORE ABOUT THE CONCEPT</a>
             </div>
+          </div>
+            </div>
+           </div>
+       </div>
+   
+
+
 
         
 
-        <div class="container-fluid portfolio-container-fluid-background">
+    <div class="container">
      
         <div class="row d-flex justify-content-center mt-5">
             <div class="col-sm-12 col-md-8 quote-text white-text mt-5">
                 <div class="media">
-                                <img src="assets/images/peter.jpg" class="rounded-circle mr-3 mt-4" height="100" width="100"> 
-                                <blockquote class="blockquote">
-                                <p class="mt-3 white-text">"Maria is a highly motivated and qualified professional with experience in all 
-                                aspects of business strategies including sales, operational, trainings and employee relations. Maria was 
-                                able to transition from the Kinnarps Academy division to process improvement to revenue management tactics 
-                                very adeptly."</p>
-                                <p class="mb-0 pb-5 white-text">- <strong>Peter Knecht, Head of International Concepts at Kinnarps Group</strong></p>
-                                </blockquote>
+                    <img src="assets/images/peter.jpg" class="rounded-circle mr-3 mt-4" height="100" width="100"> 
+                    <blockquote class="blockquote">
+                        <p class="mt-3 white-text">Maria is a highly motivated and qualified professional with experience in all 
+                        aspects of business strategies including sales, operational, trainings and employee relations. Maria was 
+                        able to transition from the Kinnarps Academy division to process improvement to revenue management tactics 
+                        very adeptly.</p>
+                        <p class="mb-0 pb-5 white-text">- <strong>Peter Knecht, Head of International Concepts at Kinnarps Group</strong></p>
+                    </blockquote>
                 </div>
             </div>
         </div>
     </div>              
-  <!-- E-learning--------------------------------------------------->
-       <div class="container-fluid portfolio-items-background">
-            <div class="row mt-4">
-                <div class="col d-flex justify-content-center mt-3">
-                   <h2 class="text-uppercase subsection-heading">E-learning</h2>
-                </div>
+  <!-- E-learning-->
+    <div id="e-learning" class="container">
+        <div class="row d-flex justify-content-center">
+               <div class="col-10 portfolio-items-background">
+        <div class="row mt-4">
+            <div class="col d-flex justify-content-center mt-3">
+                <h2 class="text-uppercase subsection-heading">E-learning</h2>
             </div>
-            <div class="row d-flex">
+        </div>
+        <div class="row d-flex">
                 <div class="col d-flex justify-content-center mr-0">
                     <h3>The theory of color</h3>
                 </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center ml-0">
+                <ul class="list-unstyled text-center">
+                    <li>How does colours influence us physically, mentally and socially?</li>
+                    <li>Stimulate different activities with colours to enhance well-being,
+                    better efficiency and increased productivity.</li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-center ml-0">
-                    <ul class="list-unstyled text-center">
-                        <li>How does colours influence us physically, mentally and socially?</li>
-                        <li>Stimulate different activities with colours to enhance well-being,
-                        better efficiency and increased productivity.</li>
-                    </ul>
-                </div>
-            </div>
+        </div>
         <div class="row d-flex justify-content-center no-gutters">
             <div class="col-md-6 mt-4 mb-4 e-learning-image">
             </div>
-        
-            <div class="row d-flex justify-content-center">
-                    <div class="col-md-8 pb-3">
-                        <p class="mt-5 ml-3 mr-5 pb-1 pl-2 pr-1 pt-1 description-background"><strong>USE:</strong> Made as a part of a product launch training when launching new colours.
-                        To make the sales force comfortable adding more colours on office furniture
-                        solutions.
-                        </p>
-                    </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-3">
+                <p class="mt-5 ml-3 mr-5 pb-1 pl-2 pr-1 pt-1 description-background"><strong>USE:</strong> Made as a part of a product launch training when launching new colours.
+                To make the sales force comfortable adding more colours on office furniture. 
+                <strong class="uppercase">Authoring tool:</strong> Articulate Storyline.
+                </p>
             </div>
-        </div> 
+        </div>
+        <a class="btn btn-dark btn--cta btn--teal btn-sm btn-sm-custom rounded-pill shadow-sm mt-4 mb-2 ml-3 pt-2 
+        pb-3" href="assets/cv/cv_maria_karlsson_eng.pdf" target="_blank" role="button">VIEW DEMO</a>
+    </div> 
+        </div>
     </div>
 
-    <div class="container-fluid portfolio-container-fluid-background">
-     
+    <div class="container">
         <div class="row d-flex justify-content-center mt-5">
             <div class="col-sm-12 col-md-8 quote-text white-text mt-5">
                 <div class="media">
-                                <img src="assets/images/ylva_dverstorp_2.jpg" class="rounded-circle mr-3 mt-4" height="100" width="100"> 
-                                <blockquote class="blockquote">
-                                <p class="mt-3 white-text">"Maria produces educational and stylish e-learnings. Her strength is her ability to find structure and essence in unsorted material and 
-                                transform chaos into something understandable and interesting. She is independent, creative, 
-                                quality-conscious and always delivers 100%."</p>
-                                <p class="mb-0 pb-5 white-text">- <strong>Ylva Dverstorp, Competence Developer (former manager) at Kinnarps Academy.</strong></p>
-                                </blockquote>
+                    <img src="assets/images/ylva_dverstorp_2.jpg" class="rounded-circle mr-3 mt-4" height="100" width="100"> 
+                    <blockquote class="blockquote">
+                        <p class="mt-3 white-text">Maria produces educational and stylish e-learnings. Her strength is her ability to find structure and essence in unsorted material and 
+                        transform chaos into something understandable and interesting. She is independent, creative, 
+                        quality-conscious and always delivers 100%.</p>
+                        <p class="mb-0 pb-5 white-text">- <strong>Ylva Dverstorp, Competence Developer (former manager) at Kinnarps Academy.</strong></p>
+                    </blockquote>
                 </div>
             </div>
         </div>
     </div>              
 
-   <!-- Video---------------------------------------------------> 
+   <!-- Video--> 
     
-    <div class="container-fluid pt-5">
+    <div id="video" class="container pt-5">
+        <div class="row d-flex justify-content-center">
+               <div class="col-10 portfolio-items-background">
         <div class="row">
             <div class="col d-flex justify-content-center mt-3">
                 <h3 class="text-uppercase subsection-heading mb-2">Video</h3>
             </div>
         </div>
-    <div class="row d-flex">
-        <div class="col d-flex justify-content-center mr-0">
-            <h3>Product news</h3>
+        <div class="row d-flex">
+            <div class="col d-flex justify-content-center mr-0">
+                <h3>Product news</h3>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col d-flex justify-content-center ml-0">
-            <ul class="list-unstyled text-center">
-                <li>Video 1: Inspiration - thoughts and story behind a new product 
+        <div class="row">
+            <div class="col d-flex justify-content-center ml-0">
+                <ul class="list-unstyled text-center">
+                    <li>Video 1: Inspiration - thoughts and story behind a new product 
                     series for schools and offices, supporting activity based working.</li>
-                <li>Video 2. Visualize the flexible use and easy transformation of a 
+                    <li>Video 2. Visualize the flexible use and easy transformation of a 
                     bench solution and promote all day use.
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="row no-gutters mt-5 pt-3 pb-3 mb-4">
-        <div class="col-md-6">
-            <iframe src="https://www.youtube.com/embed/46D-BUJ7xsU" title="Showroom visit" height="300" width="400"><p>Your browser does not support iframes.</p></iframe>
+        <div class="row no-gutters mt-5 pt-3 pb-3 mb-4">
+            <div class="col-md-6">
+                <iframe src="https://www.youtube.com/embed/46D-BUJ7xsU" title="Showroom visit" height="300" width="400"><p>Your browser does not support iframes.</p></iframe>
+            </div>
+            <div class="col-md-6">
+                <iframe src="https://www.youtube.com/embed/hT1k5cilOKU" title="Transform to perform" height="300" width="400"><p>Your browser does not support iframes.</p></iframe>
+            </div>
         </div>
-        <div class="col-md-6">
-            <iframe src="https://www.youtube.com/embed/hT1k5cilOKU" title="Transform to perform" height="300" width="400"><p>Your browser does not support iframes.</p></iframe>
-        </div>
-    </div>
-    <div class="row d-flex justify-content-center">
-        <div class="col-md-8 pb-3">
-            <p class="mt-5 ml-3 mr-5 pb-1 pl-2 pr-1 pt-1 description-background"><strong>USE:</strong> Both videos were produced to be a part of e-learnings
-            included in a product launch training. 
-            </p>
-        </div>
-    </div>
-</div>
-<div class="container-fluid portfolio-container-fluid-background">
-    <div class="row d-flex justify-content-center mt-5 pt-5 mb-5 pb-5">
-        <div class="col-sm-12 col-md-8 quote-text white-text">
-            <div class="media">
-                <img src="assets/images/cissi.jpg" class="rounded-circle mr-3 mt-4" height="100" width="100"> 
-                <blockquote class="blockquote">
-                    <p class="mt-3">"Maria has an unbeatable ability to approach problems holistically. She reads in, listens and gets 
-                    acquainted with the work to be solved. We have worked together in e-learning, product launch and new concept projects. 
-                    Maria is a motivated and solution-oriented person with a great sense of color and shape. 
-                    I am so grateful to have worked with Maria, where nothing has been impossible!"</p>
-                    <p class="mb-0">- <strong>Cecilia Lundgren, Competence Developer & Project manager at Kinnarps Academy.</strong></p>
-                </blockquote>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-3">
+                <p class="mt-5 ml-3 mr-5 pb-1 pl-2 pr-1 pt-1 description-background"><strong>USE:</strong> Both videos were produced to be a part of e-learnings
+                included in a product launch training. 
+                </p>
             </div>
         </div>
     </div>
-</div>
-    
-  <!-- Training & events--------------------------------------------------->     
-<div class="container-fluid mt-5 mb-5 pb-5">
-    <div class="row">
-        <div class="col d-flex justify-content-center">
-            <h3 class="text-uppercase subsection-heading mb-2">Trainings & events</h3>
         </div>
     </div>
-    
-    <div class="row">
-        <div class="col d-flex justify-content-center ml-0">
-            <ul class="list-unstyled text-center">
-                <li>Trainings: A wide range of subject areas, from ADR (hazardous materials) to sales trainings.</li>
-                <li>Events: Introduction of new employees and product launch trainings.
-                </li>
-            </ul>
-        </div>
-    </div> 
-    
-    <div class="row d-flex">
-        <div class="col d-flex justify-content-center mt-3 mb-3 mr-0">
-            <h3>Main working areas</h3>
-        </div>
-    </div>
-    <div class="row ml-5 mr-5 pl-5 pr-5">
-        <div class="col-md-4 px-0">
-            <div class="introduction-image mx-auto">
+    <div class="container">
+        <div class="row d-flex justify-content-center mt-5 pt-5 mb-5 pb-5">
+            <div class="col-sm-12 col-md-8 quote-text white-text">
+                <div class="media">
+                    <img src="assets/images/cissi.jpg" class="rounded-circle mr-3 mt-4" height="100" width="100"> 
+                    <blockquote class="blockquote">
+                        <p class="mt-3">Maria has an unbeatable ability to approach problems holistically. She reads in, listens and gets 
+                        acquainted with the work to be solved. We have worked together in e-learning, product launch and new concept projects. 
+                        Maria is a motivated and solution-oriented person with a great sense of color and shape. 
+                        I am so grateful to have worked with Maria, where nothing has been impossible!</p>
+                        <p class="mb-0">- <strong>Cecilia Lundgren, Competence Developer & Project manager at Kinnarps Academy.</strong></p>
+                    </blockquote>
+                </div>
             </div>
-            <div class="row">
-                   <div class="col">
+        </div>
+    </div>
+    
+  <!-- Training & events-->     
+    <div id="trainings-events" class="container mt-5 mb-5 pb-5">
+        <div class="row d-flex justify-content-center">
+               <div class="col-10 portfolio-items-background">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h3 class="text-uppercase subsection-heading mb-2">Trainings & events</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center ml-0">
+                <ul class="list-unstyled text-center">
+                    <li>Trainings: A wide range of subject areas, from ADR (hazardous materials) to sales trainings.</li>
+                    <li>Events: Introduction of new employees and product launch trainings.
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    
+        <div class="row d-flex">
+            <div class="col d-flex justify-content-center mt-3 mb-3 mr-0">
+                <h3>Main working areas</h3>
+            </div>
+        </div>
+        <div class="row ml-5 mr-5 pl-5 pr-5">
+            <div class="col-md-4 px-0">
+                <div class="introduction-image mx-auto">
+                </div>
+                <div class="row">
+                    <div class="col">
                        <h5 class="text-uppercase mt-2 ml-3"><strong>Introduction</strong></h5>
                        <p class="ml-3 mr-4">A big event with employees from many different countries.
                           With different skills and positions. My work: Development, administration
                           and facilitation.
                        </p>
-                   </div>
-            </div>
-        </div>
-        <div class="col-md-4 px-0">
-            <div class="product-image mx-auto">
-            </div>
-            <div class="row">
-                <div class="col">
-                       <h5 class="text-uppercase mt-2 ml-3"><strong>Products & solutions</strong></h5>
-                       <p class="ml-3 mr-4">For office, school and care environments. My work: product
-                           information, selling points, maintenance and instructions.
-                       </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 px-0">
-            <div class="truck-image mx-auto">
+            <div class="col-md-4 px-0">
+                <div class="product-image mx-auto">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-uppercase mt-2 ml-3"><strong>Products & solutions</strong></h5>
+                        <p class="ml-3 mr-4">For office, school and care environments. My work: product
+                           information, selling points, maintenance and instructions.
+                        </p>
+                   </div>
+                </div>
             </div>
-            <div class="row">
+            <div class="col-md-4 px-0">
+                <div class="truck-image mx-auto">
+                </div>
+                <div class="row">
                    <div class="col">
                        <h5 class="text-uppercase mt-2 ml-3"><strong>CERTIFICATES</strong></h5>
                        <p class="ml-3 mr-4">Among others "Drivers Certificate of Proffessional Competence".
                            My work: Purchase, planning and administration.
                        </p>
                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="row d-flex justify-content-center mt-5">
-        <div class="col-md-8 description-background">
-            <h6 class="font-weight-bold pt-2">TRAININGS I HAVE WORKED WITH:</h6>
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-md-8 description-background">
+                <h6 class="font-weight-bold pt-2">TRAININGS I HAVE WORKED WITH:</h6>
+            </div>
         </div>
-    </div>
-    <div class="row d-flex justify-content-center">
+       <div class="row d-flex justify-content-center">
         <div class="col-md-8 description-background">
             <div class="row trainings-text">
                 <div class="col-md-3">
-            <ul class="list-unstyled mt-0 pt-0">
-                <li>ADR 1.3</li>
-                <li>Boiler maintenance</li>
-                <li>Certificate, electricians</li>
-                <li>Certificate, truck drivers</li>
-                <li>Coaching</li>
-            </ul>
+                    <ul class="list-unstyled mt-0 pt-0">
+                       <li>ADR 1.3</li>
+                       <li>Boiler maintenance</li>
+                       <li>Certificate, electricians</li>
+                       <li>Certificate, truck drivers</li>
+                       <li>Coaching</li>
+                    </ul>
                 </div>
                 <div class="col-md-3">
-            <ul class="list-unstyled">
-                <li>Colour schemes</li>
-                <li>Facilitation</li>
-                <li>Guided company tours</li>
-                <li>CPR</li>
-                <li>Introduction</li>
-            </ul>
+                    <ul class="list-unstyled">
+                       <li>Colour schemes</li>
+                       <li>Facilitation</li>
+                       <li>Guided company tours</li>
+                       <li>CPR</li>
+                       <li>Introduction</li>
+                    </ul>
                 </div>
                 <div class="col-md-3">
-            <ul class="list-unstyled">
-                <li>Invoice system</li>
-                <li>Materials wood, veneer</li>
-                <li>Presentation skills</li>
-                <li>Repairing wood, veneer</li>
-                <li>Safety</li>
-            </ul>
+                    <ul class="list-unstyled">
+                       <li>Invoice system</li>
+                       <li>Materials wood, veneer</li>
+                       <li>Presentation skills</li>
+                       <li>Repairing wood, veneer</li>
+                       <li>Safety</li>
+                    </ul>
                 </div>
                 <div class="col-md-3">
-            <ul class="list-unstyled">
-                <li>Sales training</li>
-                <li>Service training for fitters</li>
-                <li>Social media</li>
-                <li>Time reporting system</li>
-                <li>Working environment</li>
-            </ul>
+                    <ul class="list-unstyled">
+                        <li>Sales training</li>
+                        <li>Service training for fitters</li>
+                        <li>Social media</li>
+                        <li>Time reporting system</li>
+                        <li>Working environment</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid portfolio-container-fluid-background white-text">
-   <div class="row d-flex justify-content-center mt-5 pt-5 pb-5">
-        <div class="col-12 col-md-8 quote-text">
-            <div class="media">
-                                <img src="assets/images/rolf.jpg" class="rounded-circle mr-5 mt-5" height="100" width="100"> 
-                                <blockquote class="blockquote">
-                                    <p class="mt-3">"During the years we worked together with service training for Kinnarps service 
-                                    and sales staff, you planned, booked and organized the training in a 
-                                    very good way. Always felt safe that everything worked well before, during and after the training. 
-                                    With great commitment, positive attitude and playful elements in the training, you helped to create 
-                                    good energy in the groups so the participants found the training valuable and appreciated it. 
-                                    We were a good team!"</p>
-                                    <p class="mb-0">- <strong>Rolf Johansson, Customer Quality Manager, Kinnarps Academy.</strong></p>
-                                </blockquote>
+    </div>
+        </div>
+    </div>
+       
+    <div class="container white-text">
+        <div class="row d-flex justify-content-center mt-5 pt-5 pb-5">
+            <div class="col-12 col-md-8 quote-text">
+                <div class="media">
+                    <img src="assets/images/rolf.jpg" class="rounded-circle mr-5 mt-5" height="100" width="100"> 
+                    <blockquote class="blockquote">
+                        <p class="mt-3">During the years we worked together with service training for Kinnarps service 
+                        and sales staff, you planned, booked and organized the training in a 
+                        very good way. Always felt safe that everything worked well before, during and after the training. 
+                        With great commitment, positive attitude and playful elements in the training, you helped to create 
+                        good energy in the groups so the participants found the training valuable and appreciated it. 
+                        We were a good team!</p>
+                        <p class="mb-0">- <strong>Rolf Johansson, Customer Quality Manager, Kinnarps Academy.</strong></p>
+                    </blockquote>
+                </div>
             </div>
         </div>
     </div>
 </div>
  
-<div class="container-fluid skills-experience-container pt-5">
-     <div class="row">
+    <div id="contact" class="container-fluid blue-background pt-5">
+        <div class="row">
             <div class="col d-flex justify-content-center">
-                <h1 class="section-heading text-uppercase mt-3 pb-3">Get in touch</h1>
+                <h1 class="section-heading text-uppercase mt-3">Get in touch</h1>
             </div>
-     </div>
-     
-     <div class="row">
-           <div class="col-md-2 mx-auto d-none d-lg-block">
-              <div id="circle-container">
-                  <div id="circle-cover-bg">    
-                  </div>
-               </div>  
-           </div>
-       </div>
-       <div class="row">
-         <div class="col d-flex justify-content-center">
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
              <p class="orange-text">Feel fre to contact me at any time!</p>
-         </div>
-     </div>
-    <div class="row d-flex justify-content-center">
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
         <div class="col-md-6">
            <form class="contact-form white-text">
               <div class="mb-3">
@@ -658,19 +637,34 @@
                   <input type="password" class="form-control" id="exampleInputPassword1">
               </div>
               <div class="row">
-                  <div class="col d-flex justify-content-center">
-              <button type="submit" class="btn btn-dark btn--cta btn--teal btn-sm btn-sm-custom rounded-pill shadow-sm text-uppercase mt-4 mb-5">Submit</button>
-            </div>
-            </div>
+                    <div class="col d-flex justify-content-center">
+                      <button type="submit" class="btn btn-dark btn--cta btn--teal btn-sm btn-sm-custom rounded-pill shadow-sm text-uppercase mt-4 mb-5">Submit</button>
+                    </div>
+              </div>
             </form>
         </div>
+        </div>
     </div>
-</div>
 
-    <!-- Concept development-------------------------------------------------->     
-     
-   
+    <!-- Footer-->     
+    <footer class="container-fluid blu-black-background">
+    <div class="row pt-5 pb-5">
+        <div class="col d-flex justify-content-center pt-3">
+            <ul class="list-unstyled white-text text-center">
+            <li>Maria Karlsson</li>
+            <li>Falköping-Sweden</li>
+            <li>+46(0)705-804 566</li>
+            <li>miachallestad@gmail.com</li>
+            </ul> 
+        </div>
+    </div>
+    </footer>
+    
 </body>
+
+
+   
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

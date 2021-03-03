@@ -1,20 +1,17 @@
 /*Colors*/
 
-.experience-container {
+.blue-background {
     background-color: #013040;
-    height:15vh
 }
 
-.about-me-container {
+.deep-blue-background {
     background-color: #002A38;
-    height: 100vh;
 }
 
-.skills-experience-container {
-    background-color: #013040;
- } 
+.blu-black-background {
+    background-color: #030E14;
+}
 
-#002A38 #002A38 #013040
 
 .sales-concept-background {
     background-color: #C9ECCB;
@@ -22,14 +19,6 @@
 
 .description-background {
     background-color: #A4ECD7;
-}
-
-.product-news-background {
-    background-color: black;
-}
-
-.portfolio-container-fluid-background {
-    background-color: #002A38;
 }
 
 .portfolio-items-background {
@@ -70,9 +59,8 @@ h5 {
     letter-spacing: 0.1rem;
 }
 
-.projects-heading {
-   font-size: 26px;
-   font-weight: 300; 
+.skills-experience-section-heading {
+    color:#030E14;
 }
 
 body {
@@ -100,23 +88,16 @@ body {
 /*Callout*/
 
 .bg-img {
-    height:auto;
-    width: 100%;
-    background: url("../images/banner_sm.jpg") no-repeat top left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-     position: relative;
-     margin-top: 0;
+    background-color: #002A38;
  } 
 
 .callout-text {
-    color: #00262B;
+    color:white;
+    text-align: center;
 }
 
 .callout-container {
-    margin-top: 7%;
+    margin-top: 2%;
 }
 
 .btn-sm-custom {
@@ -126,14 +107,14 @@ body {
 
 #name {
     font-family: "Roboto", sans-serif;  
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 300;
     letter-spacing: 0.1em;
     margin-bottom: 1%;
 }
 
 .title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.1em;
 }
@@ -152,7 +133,7 @@ body {
     margin: 0;
 }
 
- .experience-container {
+ .experience-ul {
      font-size: 0;
  }
 
@@ -185,6 +166,7 @@ body {
 
 /*About me*/
 
+
 #hand-written {
     font-family: "Roboto Condensed";
     font-size: 24px;
@@ -196,16 +178,16 @@ body {
    width: 75%;
 }
 
-#circle-container {
-    width: 150px;
-    height: 150px;
+.circle-container {
+    width: 250px;
+    height: 250px;
     padding: 10px;
     border-radius: 50%;
     margin-top: -5%;
     margin-bottom: 10%;
 }
 
-#circle-cover-bg {
+.circle-cover-bg {
     background: url("../images/me2.jpg") no-repeat center;
     height: 100%;
     border-radius: 50%;
@@ -218,6 +200,72 @@ body {
     font-weight: 300;
     margin-top: 2%;
     margin-bottom: 1%;
+}
+
+
+/*Skills and experience*/
+
+
+
+
+.block-divider {
+    width: 150px;
+    height: 2px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #002A38;
+}
+
+.experience-overview {
+    margin-top: 5%;
+}
+
+.digital-learning {
+    background-color: #C9ECCB;
+}
+
+.icon-size {
+    font-size: 30px;
+}
+
+.digital-learning-heading {
+    margin-bottom: -10%;
+}
+
+.video {
+    background-color: #E7F6C7;
+}
+
+.training-events {
+    background-color: #52BF90;
+}
+
+.concept-dev {
+    background-color:#93E1D8;
+}
+
+.user-centric {
+    background-color: #D3F3F7;
+}
+
+.interactiv-front-end {
+    background-color: #A4ECD7;
+}
+
+.data-centric {
+    background-color: #76D8AF;
+}
+
+.fullstack {
+    background-color: #E0E9C6;
+}
+
+.upp-skilling-container {
+    background-color: #339899;
+}
+
+.trainings-text {
+    font-size: 12px;
 }
 
 
@@ -297,68 +345,6 @@ iframe {
 }
 
 
-/*Skills and experience*/
-
-
-
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-}
-
-.experience-overview {
-    margin-top: 5%;
-}
-
-.digital-learning {
-    background-color: #C9ECCB;
-}
-
-.icon-size {
-    font-size: 30px;
-}
-
-.digital-learning-heading {
-    margin-bottom: -10%;
-}
-
-.video {
-    background-color: #E7F6C7;
-}
-
-.training-events {
-    background-color: #52BF90;
-}
-
-.concept-dev {
-    background-color:#93E1D8;
-}
-
-.user-centric {
-    background-color: #D3F3F7;
-}
-
-.interactiv-front-end {
-    background-color: #A4ECD7;
-}
-
-.data-centric {
-    background-color: #76D8AF;
-}
-
-.fullstack {
-    background-color: #E0E9C6;
-}
-
-.upp-skilling-container {
-    background-color: #339899;
-}
-
-.trainings-text {
-    font-size: 12px;
-}
 
 /*Buttons*/
 
@@ -377,35 +363,50 @@ iframe {
 .btn--teal:active,
 .btn--teal:focus,
 .btn--teal:active:focus {
-    background-color: rgba(0, 0, 0, .2);
-    border-color: rgba(0, 0, 0, .2);
+    background-color:#a14b2e;
+    border-color: #a14b2e;
+}
+
+.btn-sm-custom-concept-link {
+    width: 200px;
 }
 
 
 @media only screen and (min-width: 400px) {
 
-.bg-img {
-    background: url("../images/banner.jpg") no-repeat top left;
-    height:85vh;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+    
+
+@media only screen and (min-width: 992px) {
+    .bg-img {
+     height: 50vh;
+     background: url("../images/banner.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
      position: relative;
      margin-top: 0;
+    }
+
+    .callout-text {
+       color: #00262B;
+        text-align: left;
+    }
+
+    .callout-container {
+        margin-top: 8%;
+    }
 }
 
-@media only screen and (min-width: 576px) {
-
-.bg-img {
-    background: url("../images/banner_md.jpg") no-repeat top left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-     position: relative;
-     margin-top: 0;
-}
-
-
+@media only screen and (min-width: 992px) {
+    .bg-img {
+     height: 86vh;
+    }
 }
