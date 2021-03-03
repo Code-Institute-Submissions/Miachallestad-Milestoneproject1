@@ -17,9 +17,18 @@
     background-color: #C9ECCB;
 }
 
-.description-background {
-    background-color: #A4ECD7;
+.portfolio-heading-background {
+    background-color:  #D2691E;
 }
+
+.description-background {
+    background-color:  #E3DCC3;
+}
+
+.grey-background {
+    background-color: #EDEDD6;
+}
+
 
 .portfolio-items-background {
     background-color: white;
@@ -29,6 +38,10 @@
     font-family: 'Roboto condensed', sans-serif;
     font-size: 30px;
     color: #D2691E;
+}
+
+.portfolio-text {
+    font-size: 16px;
 }
 
 
@@ -271,10 +284,13 @@ body {
 
 /*Portfolio*/
 
+div .portfolio-items-background {
+    box-shadow: 8px 8px 5px #030E14;
+}
 .concept-image-background {
     background: url("../images/concept_image_1.jpg") no-repeat center;
-    height: 337px;
-    width: 443px;
+    height: 337;
+    width: 443;
 }
 
 .concept-image-scope {
@@ -402,6 +418,10 @@ iframe {
 
     .callout-container {
         margin-top: 8%;
+    }
+
+    .portfolio-text {
+    font-size: 14px;
     }
 }
 
