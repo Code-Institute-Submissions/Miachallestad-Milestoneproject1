@@ -34,6 +34,11 @@
     background-color: white;
 }
 
+.portfolio-item-footer {
+    background-color: #D2691E;
+    height: 10%;
+}
+
 .orange-text {
     font-family: 'Roboto condensed', sans-serif;
     font-size: 30px;
@@ -78,10 +83,15 @@ h5 {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #002A38;
 }
 
 .white-text {
     color: white;
+}
+
+#home {
+    height: 100vh;
 }
 
 /*Navigation*/
@@ -140,6 +150,11 @@ body {
 
 .competence {
     width: 18%;
+}
+
+.experience-container {
+    position: absolute;
+    bottom: 0px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -218,9 +233,6 @@ body {
 
 /*Skills and experience*/
 
-
-
-
 .block-divider {
     width: 150px;
     height: 2px;
@@ -288,27 +300,36 @@ div .portfolio-items-background {
     box-shadow: 8px 8px 5px #030E14;
 }
 .concept-image-background {
-    background: url("../images/concept_image_1.jpg") no-repeat center;
-    height: 337;
-    width: 443;
+    background: url("../images/concept_image_background.jpg") no-repeat top left;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
 }
 
 .concept-image-scope {
-    background: url("../images/concept_image_2.jpg") no-repeat center;
-    height: 337px;
-    width: 443px;
+    background: url("../images/concept_image_scope.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .concept-image-analysis {
-    background: url("../images/concept_image_3.jpg") no-repeat center;
-    height: 337px;
-    width: 443px;
+    background: url("../images/concept_image_analysis.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .e-learning-image {
     background: url("../images/computer_2.jpg") no-repeat center;
-    height: 295px;
-    width: 443px;
+    width: 100%;
+    height: auto;
+    
 }
 
 .blockquote {
@@ -401,7 +422,6 @@ iframe {
 
 @media only screen and (min-width: 992px) {
     .bg-img {
-     height: 50vh;
      background: url("../images/banner.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
