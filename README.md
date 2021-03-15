@@ -6,14 +6,14 @@ README.md
 # MILESTONEPROJECT 1 - PORTFOLIO WEBSITE
 
 This is my portfolio website with an overview of my skills, experiences and projects. 
-Made for recruiters who want to see my work. The website reflects my current situation 
+Made for recruiters who may be interested in hireing me and want to see my work. The website reflects my current situation 
 and is designed to easily be added on when there are new projects to show. The website 
-is responsive and accessible on many devices.
+is responsive, accessible on many devices, and easy to navigate.
 
 Link to the project
 
 ## User Experience (UX)
-###	User stories
+###	  User stories
 #### First Time Visitor Goals
 a.  As a First Time Visitor, I want to get a quick and good, overview of you and what you can offer and contribute to our business - without spending a lot of time reading.<br>
 b.	As a First Time Visitor, I want to be able to easily navigate throughout the site to find more content.<br> 
@@ -106,10 +106,10 @@ footer.
 
 
 ### Further Testing
-•	The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-•	The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-•	A large amount of testing was done to ensure that all pages were linking correctly.
-•	Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+•	The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.<br>
+•	The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.<br>
+•	A large amount of testing was done to ensure that all pages were linking correctly.<br>
+•	Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.<br>
 
 ## Known Bugs
 
