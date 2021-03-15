@@ -414,7 +414,7 @@ margin-top: -3%;
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,42,56, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
@@ -645,7 +645,6 @@ margin-top: 5%;
 .concept-image-analysis {
     height: 43vh;
 }
-
 }
 
 @media only screen and (device-width: 1024px)
@@ -659,7 +658,6 @@ margin-top: 5%;
      background-size: cover;
      position: relative;
      margin-top: 0;
-
     }
 
      .contact-information div {
@@ -733,11 +731,12 @@ margin-top: 5%;
     }
 
      .about-me-container {
+        margin-top: 8%;
         margin-bottom: 8%;
     }
       
     .section-background {
-       height: auto;
+       height: 100vh;
     }
 
     .concept-image-background {
@@ -763,12 +762,16 @@ margin-top: 5%;
 
     .bg-landing-page {
     background: url("../images/banner_lg.jpg") no-repeat top left;
-    
+    height: 100vh;
     }
 
     .callout-text div {
         margin-top: 20%;
         margin-left: 70%;
+    }
+
+    .section-height {
+        height: 100;
     }
 
     .concept-image-background {
